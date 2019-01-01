@@ -1,0 +1,9 @@
+@font-face {
+    font-family: '8157';
+    src: url('fonts/8157.eot');
+    src: url('fonts/8157.eot') format('embedded-opentype'),
+         url('fonts/8157.woff2') format('woff2'),
+         url('fonts/8157.woff') format('woff'),
+         url('fonts/8157.ttf') format('truetype'),
+         url('fonts/8157.svg#8157') format('svg');
+}

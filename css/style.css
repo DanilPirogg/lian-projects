@@ -1,0 +1,161 @@
+
+@font-face {
+    font-family: '3962';
+    src: url('../fonts/3962.eot');
+    src: url('../fonts/3962.eot') format('embedded-opentype'),
+    url('../fonts/3962.woff2') format('woff2'),
+    url('../fonts/3962.woff') format('woff'),
+    url('../fonts/3962.ttf') format('truetype'),
+    url('../fonts/3962.svg#3962') format('svg');
+}
+@font-face {
+    font-family: 'LatoBold';
+    src: url('../fonts/LatoBold.eot');
+    src: url('../fonts/LatoBold.eot') format('embedded-opentype'),
+    url('../fonts/LatoBold.woff2') format('woff2'),
+    url('../fonts/LatoBold.woff') format('woff'),
+    url('../fonts/LatoBold.ttf') format('truetype'),
+    url('../fonts/LatoBold.svg#LatoBold') format('svg');
+}
+@font-face {
+    font-family: 'RobotoBold';
+    src: url('../fonts/RobotoBold.eot');
+    src: url('../fonts/RobotoBold.eot') format('embedded-opentype'),
+    url('../fonts/RobotoBold.woff2') format('woff2'),
+    url('../fonts/RobotoBold.woff') format('woff'),
+    url('../fonts/RobotoBold.ttf') format('truetype'),
+    url('../fonts/RobotoBold.svg#RobotoBold') format('svg');
+}
+@font-face {
+    font-family: 'RobotoRegular';
+    src: url('../fonts/RobotoRegular.eot');
+    src: url('../fonts/RobotoRegular.eot') format('embedded-opentype'),
+    url('../fonts/RobotoRegular.woff2') format('woff2'),
+    url('../fonts/RobotoRegular.woff') format('woff'),
+    url('../fonts/RobotoRegular.ttf') format('truetype'),
+    url('../fonts/RobotoRegular.svg#RobotoRegular') format('svg');
+}
+@font-face {
+    font-family: 'RobotoItalic';
+    src: url('../fonts/RobotoItalic.eot');
+    src: url('../fonts/RobotoItalic.eot') format('embedded-opentype'),
+    url('../fonts/RobotoItalic.woff2') format('woff2'),
+    url('../fonts/RobotoItalic.woff') format('woff'),
+    url('../fonts/RobotoItalic.ttf') format('truetype'),
+    url('../fonts/RobotoItalic.svg#RobotoItalic') format('svg');
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+    color: inherit;
+    -webkit-font-smoothing: antialiased;
+}
+.menu a {
+    outline: none;
+    text-decoration: none;
+    font-family: 'LatoBold';
+
+}
+
+img {
+    border: none;
+}
+
+body {
+    width: 100%;
+    background-color: #fafafa;
+
+}
+
+header {
+    width: 100%;
+    height: 90px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 0 5px 4px #b8bcbe;
+    box-shadow: 0 0 5px 4px #b8bcbe;
+    position: relative;
+    z-index: 1;
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+header a img.logo {
+    float: left;
+    margin-top: 28px;
+}
+
+header .container:after {
+    clear: both;
+    display: block;
+    content: "";
+}
+
+header .container .menu {
+    margin-top: 40px;
+    float: right;
+}
+
+header .container .menu a {
+    line-height: 12px;
+    margin-right: 45px;
+    color: #777777;
+    text-transform: uppercase;
+    font-weight: bold;
+    /*position: relative;*/
+}
+
+header .container .menu a:hover {
+    color: #000000;
+}
+section img{
+    width: 100%;
+}
+i{
+    color: #777777;
+}
+
+header .container:after {
+    clear: both;
+    display: block;
+    content: "";
+}
+.menu  a:before{
+    content: "—";
+    color: transparent;
+}
+.menu  a:hover:before{
+    content: "—";
+    color: black;
+}
+.container-1 h1 {
+    position: absolute;
+    top: 150px;
+    left: 200px;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    line-height: 40px;
+    padding: 0 15px;
+    font-family: '3962';
+
+}
+.container-1{
+    position: relative;
+    z-index: 0;
+}
+.container-1 h2 {
+    position: absolute;
+    top: 210px;
+    left: 205px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 15px;
+    font-family: '3962';
+
+}

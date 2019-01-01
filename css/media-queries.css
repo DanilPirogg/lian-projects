@@ -1,0 +1,44 @@
+
+
+
+/*@media screen and (min-width: 480px) and (max-width: 1200px){*/
+    /**/
+/*}*/
+
+
+@media only screen and (max-width:768px) {
+    /*.border-top a{*/
+        /*display: block;*/
+        /*width: 70;*/
+        /*margin-right: 60px;*/
+    /*}*/
+/*a.logo img{*/
+    /*margin-left: 40px;*/
+/*}*/
+/*a.sign{*/
+    /*max-width: 80%;*/
+/*}*/
+/*a.login{*/
+    /*max-width: 76%;*/
+/*}*/
+/*a.store{*/
+    /*max-width:85%;*/
+/*}*/
+
+/*section img{*/
+    /*height:400px;*/
+/*}*/
+/*header{*/
+    /*max-height:40px;*/
+/*}*/
+/*form{*/
+    /*top: 30px;*/
+/*}*/
+}
+
+
+/*@media only screen and (max-width: 375px) {*/
+
+/*}*/
+
+
