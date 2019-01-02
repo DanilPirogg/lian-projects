@@ -159,3 +159,49 @@ header .container:after {
     font-family: '3962';
 
 }
+.buttons{
+    max-width: 1140px;
+    margin: auto;
+}
+
+.buttons a{
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: 'RobotoBold';
+    padding: 0 35px;
+   line-height: 60px;
+}
+.buttons .first{
+    border-left: solid 2px #ebebeb;
+    display: inline-block;
+}
+
+.buttons .second {
+    border-left: solid 2px #ebebeb;
+    border-right: solid 2px #ebebeb;
+    display: inline-block;
+}
+.second i{
+    color: black;
+    padding-left: 7px;
+}
+.first i {
+    padding-right: 7px;
+    color: black;
+}
+.third i{
+    padding-right: 7px;
+    color: black;
+}
+.buttons .third {
+    border-left: solid 2px #ebebeb;
+    border-right: solid 2px #ebebeb;
+    display: inline-block;
+    float: right;
+}
+.buttons .third:after{
+    clear: both;
+    display: block;
+    content: "";
+}
