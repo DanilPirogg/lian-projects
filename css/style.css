@@ -221,7 +221,7 @@ header .container:after {
 }
 .container-left h2{
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 9px;
     font-family: '3962';
     font-size: 23px;
     padding-bottom: 18px;
@@ -300,20 +300,48 @@ div.p-cont-left p{
 .buttonz{
     margin-bottom: 20px;
 }
-.icons{
+.iconz{
     background-color: #e1e1e1;
     display: inline-block;
     line-height: 50px;
     border-radius: 3px;
 }
- .icons i{
+ .iconz i{
     color: #777777;
     padding-right: 27px;
 }
-.icons i:first-child{
+.iconz i:first-child{
     padding-left: 20px;
 }
-.icons:before{
+.iconz:before{
     content: url('../images/triangle.png');
     margin-left: -8px
+}
+.role {
+    margin-bottom: 140px;
+}
+.pre-footer h2{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    font-family: '3962';
+    font-size: 23px;
+    padding-bottom: 43px;}
+.pre-footer p {
+    color: #989898;
+padding-bottom: 20px;
+font-size: 14px;
+font-family: 'RobotoRegular';
+    text-align: center;
+}
+
+.finish-imgs{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+margin-bottom: 70px;
+}
+.finish-imgs img{
+    width: 30%;
 }
